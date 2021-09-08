@@ -2,8 +2,10 @@
 A multi  layered perceptron learning Neural Network which can recognize 0-9 digits
 
 
+The first thing to do is extract the txt files and keep the files in the same directory as the NeuralNetwork
+The text files are pngs of digits in text format where each image is represented as a matrice of 28 x 28 where each value is the value of a pixel
+
 The code has Three modes:
-the first thing to do is extract the txt files and keep the files in the same directory as the NeuralNetwork
 To run either mode you need numpy and matplotlib.pyplot
 
 ### Test mode
