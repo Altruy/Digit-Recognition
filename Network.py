@@ -213,10 +213,8 @@ def main():
         brain.train(lr)
 
     elif sys.argv[1] == 'graph':
-        lr = float(sys.argv[4])
-        brain.train(lr)
         for _ in range(3):
-            lr = float(input('Lr:'))
+            lr = float(input('Learning rate:'))
             brain.train(lr)
         brain.savePlot()
 
